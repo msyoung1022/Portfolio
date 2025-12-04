@@ -1,0 +1,33 @@
+
+<div class="Innovator">Maati | CTO</div>
+<nav class="navbar">
+    <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="https://www.gmail.com">Gmail</a></li>
+</ul> 
+</nav>
+  
+
+<aside class="sidebar">
+<img src="C:\Users\MaatiYoung\Downloads\9EED7FB9-6376-4B74-A545-F59CE5A0E6B7.JPG">
+<section>
+    <h2>About Me</h2>
+<p>
+    Hello, Black girl in Tech here! #BlackGirlsCodeToo 
+</p>
+</section>
+</aside>
+<main class="main-content">
+<h2 class="main-title">My DevLog</h2>
+<!-- to populate the logs -->
+<div class="container">
+    <div id="DEV-LOG">
+    <h1>Welcome to my development log</h1>
+
+    <p>Date: 2025-09-10</p>
+</div>
+</div>
+<h3>Entry number 1</h3>
+<!-- <br>-->
+</main>
+</div>

@@ -1,0 +1,86 @@
+/* Cleaned and adapted styles from root Style.css for the DevLog layout */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, .devlog-root {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: pink;
+  background-color: purple;
+}
+
+.Innovator { 
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.6s;
+}
+.navbar a:hover {
+    background-color: rgb(211, 41, 123);
+}
+
+.layout{
+  max-width: 1200px;
+  margin: 2rem auto;
+  display: flex;
+  gap: 1rem;
+}
+.sidebar {
+    background-color: gray;
+    padding: 2rem;
+    width: 300px;
+    min-height: 400px; 
+}
+.profile-img{  
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;  
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    border: 3px solid pink;
+}
+.sidebar h2{
+    color: blueviolet;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.main-content{
+    flex: 1;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+}
+.main-content h2{
+    color: lightpink;
+    margin-bottom: 1.8rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid lightpink;
+    padding-bottom: 0.5rem;
+}
+.container{
+    background: transparent;
+    margin-top: 1rem;
+}
+
+@media (max-width: 800px){
+  .layout{ flex-direction: column; padding: 1rem }
+  .sidebar{ width: 100%; }
+}
